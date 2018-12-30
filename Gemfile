@@ -13,6 +13,11 @@ end
 group :production do
   gem 'pg'
 end
+# Bootstrap Sass
+gem 'bootstrap-sass', '~> 3.4.0'
+gem 'sassc-rails', '>= 2.0.0'
+# jQuery
+gem 'jquery-rails'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
